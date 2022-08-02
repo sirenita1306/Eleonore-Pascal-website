@@ -54,11 +54,14 @@ main{
 }
 
 .presentation_indiv {
-    margin: auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
+
+.photo_indiv{
+	flex: 1;
+    }
 
 .presentation_indiv .photo_indiv p{
     text-align: justify;
@@ -66,7 +69,6 @@ main{
 
     .presentation_indiv .photo_indiv img {
         width: 150px;
-        border-radius: 100px;
         transform: scale(1);
         transition: all 0.5s ease;
     }
