@@ -51,29 +51,15 @@ html {
             transform: scale(1.07) perspective(1px);
         }
 
-    .contact_indiv div .email {
+    .contact_indiv .email {
+        text-align:center;
+        margin: auto;
         font-style: italic;
         font-size: 15px;
         font-weight: normal;
     }
 
-        .contact_indiv div .email:hover {
+        .contact_indiv .email:hover {
             text-decoration: underline;
             color: #282D3C;
         }
-
-    .contact_indiv div p {
-        font-size: 15px;
-        font-style: italic;
-        margin: auto;
-        text-align: center;
-        padding: 3px 0px;
-    }
-
-    .contact_indiv div {
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        margin: auto;
-        flex-wrap: wrap;
-    }
