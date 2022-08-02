@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Square+Peg&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #282D3C;
 }
 
 html {
     width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
+    background-image: url(../medias/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.separator{
+    width: 35%;
+    margin: 5px auto;
+}
+
+.hiddenbig {
+    display: none;
 }

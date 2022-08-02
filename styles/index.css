@@ -1,0 +1,139 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* PRESENTATION COMMUNE */
+
+#presentation_principale {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+    #presentation_principale div {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        width: 80%;
+    }
+
+#presentation_principale div img{
+    width: 250px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+#presentation_principale div h2{
+    margin: auto;
+    text-align: center;
+    margin-left: 25px;
+}
+
+#presentation_principale p{
+    margin: auto;
+    text-align: justify;
+}
+
+/* PRESENTATION INDIVIDUELLE */
+#presentation_indiv_container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 25px auto;
+    background-color: #faf7f4;
+    border-radius: 25px;
+    box-shadow: rgb(35 33 33 / 10%) 0px 5px;
+    border: solid antiquewhite 1px;
+}
+
+.insideborder {
+    border-right: solid antiquewhite 3px;
+}
+
+.presentation_indiv {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation_indiv .photo_indiv p{
+    text-align: justify;
+}
+
+    .presentation_indiv .photo_indiv img {
+        width: 150px;
+        border-radius: 100px;
+    }
+
+.presentation_indiv .contact_indiv{
+    display: flex;
+    flex-direction: column;
+}
+
+    .presentation_indiv .contact_indiv a, .presentation_indiv a {
+        font-weight: 500;
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+        padding: 3px 0px;
+        font-size: 16px;
+        transition: all 0.5s ease;
+    }
+
+        .presentation_indiv .contact_indiv a:hover, .presentation_indiv a:hover {
+            color: #5B5D70;
+        }
+
+    .presentation_indiv .contact_indiv div .email {
+        font-style: italic;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+        .presentation_indiv .contact_indiv div .email:hover {
+            text-decoration: underline;
+            color: #282D3C;
+        }
+
+.presentation_indiv .contact_indiv div p {
+    font-size: 15px;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.presentation_indiv .contact_indiv div
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+    .presentation_indiv a{
+        padding-bottom: 10px;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+
+    .img_eleonore .photo_indiv img {
+        float: right;
+        margin-left: 20px;
+    }
+
+.img_pascal .photo_indiv img {
+    float: left;
+    margin-right: 20px;
+}
+
+.signature {
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin: 8px auto;
+}

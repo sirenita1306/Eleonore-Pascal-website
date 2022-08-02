@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+/* LOGO */
+.logo{
+    width: 250px;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+/* MENU */
+#menu {
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgb(35 33 33 / 10%) 0px 5px;
+    border: solid antiquewhite 1px;
+    width: 40%;
+}
+
+    #menu ul {
+        list-style-type: none;
+        list-style-position: inside;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding: 10px;
+    }
+
+        #menu ul li {
+            text-align: center;
+            margin: auto;
+        }
+
+            #menu ul li a {
+                font-weight: bold;
+                text-decoration: none;
+                color: #282D3C;
+                font-size: 16px;
+                transition: all 0.5s ease;
+            }
+
+                #menu ul li a:hover {
+                    color: #5B5D70;
+                }

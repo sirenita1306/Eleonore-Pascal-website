@@ -18,22 +18,100 @@
 
     <!-- https://realfavicongenerator.net/ -->
 
-    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/index.css" />
 
     <title>Website title</title>
 </head>
 
 <body  onload="selectCitation();">
     <header>
+        <!-- LOGO -->
+        <img class="logo" src="medias/common_img/brand/logobig.png" alt="Eléonore et Pascal - Logo" />
+        <img class="hiddenbig logo" src="medias/common_img/brand/logosmall.png" alt="Eléonore et Pascal - Logo" />
+
+        <!-- MENU -->
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Eléonore</a></li>
+                <li><a href="index.html">Pascal</a></li>
+                <li><a href="index.html">Communs</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <!-- PRESENTATION COMMUNE -->
+        <article id="presentation_principale">
+            <div>
+                <h2>Présentation commune</h2>
+                <img src="medias/common_img/brand/ep_photo_main.png" alt="Eléonore et Pascal - Photo principale" />
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet sollicitudin tortor. Suspendisse tortor erat, rutrum id commodo id, feugiat ut leo. Proin in tellus quis augue aliquam auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce vel vestibulum mauris, eu gravida sapien. Quisque varius maximus ligula. Praesent nunc nibh, eleifend finibus mi at, aliquam tincidunt neque. Ut venenatis libero eget iaculis placerat.</p>
+        </article>
 
+        <img class="separator" src="medias/separator.png" />
+
+        <!-- PRESENTATIONS INDIVIDUELLES -->
+        <div id="presentation_indiv_container">
+            <!-- PRESENTATION ELEONORE -->
+            <article class="presentation_indiv insideborder img_eleonore">
+                <div class="photo_indiv">
+                    <img src="medias/eleonore_img/e_photo_main.png" alt="Eléonore et Pascal - Photo Eléonore" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet sollicitudin tortor. Suspendisse tortor erat, rutrum id commodo id, feugiat ut leo. Proin in tellus quis augue aliquam auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce vel vestibulum mauris, eu gravida sapien. Quisque varius maximus ligula. Praesent nunc nibh, eleifend finibus mi at, aliquam tincidunt neque. Ut venenatis libero eget iaculis placerat.</p>
+                </div>
+                <p class="signature">Eléonore</p>
+
+                <div class="contact_indiv">
+                    <a href="#">Prendre rendez-vous</a>
+                    <div>
+                        <a class="email" href="mailto:contact@eleonorepoirel.com">contact@eleonorepoirel.com</a>
+                        <p>06 06 06 06 06</p>
+                    </div>
+                </div>
+
+                <a href="soins_eleonore.html">Mes soins</a>
+            </article>
+
+            <!-- PRESENTATION PASCAL -->
+            <article class="presentation_indiv img_pascal">
+                <div class="photo_indiv">
+                    <img src="medias/pascal_img/p_photo_main.png" alt="Eléonore et Pascal - Photo Pascal" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet sollicitudin tortor. Suspendisse tortor erat, rutrum id commodo id, feugiat ut leo. Proin in tellus quis augue aliquam auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce vel vestibulum mauris, eu gravida sapien. Quisque varius maximus ligula. Praesent nunc nibh, eleifend finibus mi at, aliquam tincidunt neque. Ut venenatis libero eget iaculis placerat.</p>
+                </div>
+                <p class="signature">Pascal</p>
+
+                <div class="contact_indiv">
+                    <a href="#">Prendre rendez-vous</a>
+                    <div>
+                        <a class="email" href="mailto:contact@pascalpoirel.com">contact@pascalpoirel.com</a>
+                        <p>06 06 06 06 06</p>
+                    </div>
+                </div>
+
+                <a href="soins_pascal.html">Mes soins</a>
+            </article>
+        </div>
     </main>
 
     <footer>
-        <!-- Temp txt -->
+
+        <img class="separator" src="medias/separator.png" />
+
+        <!-- CITATION -->
+        <div id="citation">
         <p id="citation_text"></p>
+            </div>
+
+        <!-- MENTIONS LEGALES -->
+        <div id="mentionslegales">
+            <p>Copyright © Eléonore et Pascal 2022</p>
+            <a href="mentions_legales.html">Mentions légales</a>
+            <p>Conception site: <a href="https://github.com/Sin-Gala" target="_blank" rel="noreferrer noopener">SinGala</a></p>
+        </div>
     </footer>
 
     <script src="scripts/citations.js"></script>
