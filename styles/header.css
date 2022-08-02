@@ -4,10 +4,11 @@ header{
 }
 
 /* LOGO */
-.logo{
+.logo {
     width: 250px;
     margin: auto;
-    padding: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 /* MENU */
@@ -33,6 +34,8 @@ header{
         #menu ul li {
             text-align: center;
             margin: auto;
+            transition: all 0.5s ease;
+            transform: scale(1);
         }
 
             #menu ul li a {
@@ -40,9 +43,10 @@ header{
                 text-decoration: none;
                 color: #282D3C;
                 font-size: 16px;
-                transition: all 0.5s ease;
             }
 
-                #menu ul li a:hover {
-                    color: #5B5D70;
-                }
+            #menu ul li:hover {
+                color: #5B5D70;
+                transform: scale(1.07) perspective(1px);
+                backface-visibility: hidden;
+            }

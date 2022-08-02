@@ -17,11 +17,11 @@ html {
     overflow-x: hidden;
     background-image: url(../medias/background.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top center;
 }
 
-.separator{
+
+.separator {
     width: 35%;
     margin: 5px auto;
 }
@@ -29,3 +29,51 @@ html {
 .hiddenbig {
     display: none;
 }
+
+/* CONTACT */
+.contact_indiv {
+    display: flex;
+    flex-direction: column;
+}
+
+    .contact_indiv a {
+        font-weight: 500;
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+        padding: 3px 0px;
+        transition: all 0.5s ease;
+        transform: scale(1);
+    }
+
+        .contact_indiv a:hover {
+            color: #5B5D70;
+            transform: scale(1.07) perspective(1px);
+        }
+
+    .contact_indiv div .email {
+        font-style: italic;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+        .contact_indiv div .email:hover {
+            text-decoration: underline;
+            color: #282D3C;
+        }
+
+    .contact_indiv div p {
+        font-size: 15px;
+        font-style: italic;
+        margin: auto;
+        text-align: center;
+        padding: 3px 0px;
+    }
+
+    .contact_indiv div {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
