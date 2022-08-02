@@ -18,6 +18,5 @@ var randNumber;
 
 function selectCitation() {
     randNumber = Math.floor(Math.random() * citationsArray.length);
-
     citationText.innerHTML = citationsArray[randNumber];
 }
