@@ -63,3 +63,8 @@ html {
             text-decoration: underline;
             color: #282D3C;
         }
+        
+     .sous-titre {
+     	text-align: center;
+     	padding-bottom: 2%;
+     }   
