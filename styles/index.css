@@ -6,30 +6,15 @@ main{
 /* PRESENTATION COMMUNE */
 
 #presentation_principale {
-    display: flex;
-    flex-direction: column;
     width: 55%;
     margin: auto;
     padding: 25px 0px;
 }
 
-    #presentation_principale div {
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-        width: 80%;
-    }
-
-#presentation_principale div img{
-    width: 250px;
-    margin-right: 25px;
-    margin-bottom: 10px;
-}
-
-#presentation_principale div h2{
-    margin: auto;
-    text-align: center;
+#presentation_principale img{
+    width: 200px;
     margin-left: 25px;
+    float: right;
 }
 
 #presentation_principale p{
@@ -113,4 +98,33 @@ main{
 
 .contact_indiv a {
     padding: 3px 0px;
+}
+
+/* SOCIALS */
+#socials {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #d8ecf0;
+    border-radius: 25px;
+    box-shadow: rgb(35 33 33 / 10%) 0px 5px;
+    border: solid #c3eeec 1px;
+    width: 8%;
+}
+
+    #socials a {
+        margin: auto;
+        padding-top: 5px;
+        width: auto;
+        transform: scale(1);
+        transition: all 0.5s ease;
+    }
+
+        #socials a:hover {
+            transform: scale(1.07) perspective(1px);
+        }
+
+#socials a img{
+    width: 30px;
 }
