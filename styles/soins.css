@@ -1,0 +1,45 @@
+.soin {
+    width: 65%;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #faf7f4;
+    border-radius: 25px;
+    box-shadow: rgb(35 33 33 / 10%) 0px 5px;
+    border: solid antiquewhite 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .soin h2 {
+        margin: auto;
+        margin-top: 8px;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .soin h4 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .soin .description {
+        margin: auto;
+        padding: 0px 10px;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .soin a {
+        margin: auto;
+        margin-top: 18px;
+        margin-bottom: 8px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .prix{
+        margin: auto;
+        margin-top: 15px;
+        text-align: center;
+    }
