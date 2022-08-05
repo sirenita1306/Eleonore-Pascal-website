@@ -36,7 +36,14 @@
         text-align: center;
         font-weight: 500;
         font-size: 16px;
+        transition: all 0.5s ease;
+        transform: scale(1);
     }
+
+        .soin a:hover {
+            transform: scale(1.02) perspective(1px);
+            backface-visibility: hidden;
+        }
 
     .prix{
         margin: auto;
