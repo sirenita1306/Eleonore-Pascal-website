@@ -1,12 +1,6 @@
 .soin {
     width: 65%;
     margin: 15px auto;
-    padding: 10px;
-    background-color: #faf7f4;
-    border-radius: 25px;
-    box-shadow: rgb(35 33 33 / 10%) 0px 5px;
-    border: solid antiquewhite 1px;
-    display: flex;
     flex-direction: column;
 }
 

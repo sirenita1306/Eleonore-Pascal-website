@@ -1,37 +1,31 @@
-main{
+main {
     display: flex;
     flex-direction: column;
 }
 
 /* PRESENTATION COMMUNE */
-
 #presentation_principale {
     width: 55%;
     margin: auto;
     padding: 25px 0px;
 }
 
-#presentation_principale img{
-    width: 200px;
-    margin-left: 25px;
-    float: right;
-}
+    #presentation_principale img {
+        width: 200px;
+        margin-left: 25px;
+        float: right;
+    }
 
-#presentation_principale p{
-    margin: auto;
-    text-align: justify;
-}
+    #presentation_principale p {
+        margin: auto;
+        text-align: justify;
+    }
 
 /* PRESENTATION INDIVIDUELLE */
 #presentation_indiv_container {
-    display: flex;
     flex-direction: row;
     width: 70%;
     margin: 25px auto;
-    background-color: #faf7f4;
-    border-radius: 25px;
-    box-shadow: rgb(35 33 33 / 10%) 0px 5px;
-    border: solid antiquewhite 1px;
 }
 
 .insideborder {
@@ -44,23 +38,23 @@ main{
     flex-direction: column;
 }
 
-.photo_indiv{
-	flex: 1;
+    .presentation_indiv .photo_indiv {
+        flex: 1;
     }
 
-.presentation_indiv .photo_indiv p{
-    text-align: justify;
-}
-
-    .presentation_indiv .photo_indiv img {
-        width: 150px;
-        transform: scale(1);
-        transition: all 0.5s ease;
-    }
-
-        .presentation_indiv .photo_indiv img:hover {
-            transform: scale(1.07) perspective(1px);
+        .presentation_indiv .photo_indiv p {
+            text-align: justify;
         }
+
+        .presentation_indiv .photo_indiv img {
+            width: 150px;
+            transform: scale(1);
+            transition: all 0.5s ease;
+        }
+
+            .presentation_indiv .photo_indiv img:hover {
+                transform: scale(1.07) perspective(1px);
+            }
 
     .presentation_indiv a {
         font-weight: 500;
@@ -79,10 +73,10 @@ main{
             transform: scale(1.07) perspective(1px);
         }
 
-    .img_eleonore .photo_indiv img {
-        float: right;
-        margin-left: 20px;
-    }
+.img_eleonore .photo_indiv img {
+    float: right;
+    margin-left: 20px;
+}
 
 .img_pascal .photo_indiv img {
     float: left;
@@ -125,10 +119,6 @@ main{
             transform: scale(1.07) perspective(1px);
         }
 
-#socials a img{
-    width: 30px;
-}
-
-.mentions p{
-
-}
+        #socials a img {
+            width: 30px;
+        }

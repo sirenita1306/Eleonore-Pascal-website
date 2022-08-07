@@ -20,6 +20,11 @@ html {
     background-position: top center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .separator {
     width: 35%;
@@ -52,7 +57,7 @@ html {
         }
 
     .contact_indiv .email {
-        text-align:center;
+        text-align: center;
         margin: auto;
         font-style: italic;
         font-size: 15px;
@@ -63,3 +68,48 @@ html {
             text-decoration: underline;
             color: #282D3C;
         }
+
+#presentationheader {
+    margin: auto;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+    #presentationheader #photo {
+        width: 250px;
+        float: right;
+    }
+
+    #presentationheader .contact_indiv {
+        align-self: center;
+    }
+
+/* BOX */
+.box {
+    padding: 10px;
+    background-color: #faf7f4;
+    border-radius: 25px;
+    box-shadow: rgb(35 33 33 / 10%) 0px 5px;
+    border: solid antiquewhite 1px;
+    display: flex;
+}
+
+/* Mentions légales */
+#mentionslegales_text {
+    margin: 15px auto;
+    width: 50%;
+    flex-direction: column;
+}
+
+    #mentionslegales_text h2 {
+        text-align: center;
+        margin: auto;
+    }
+
+    #mentionslegales_text p {
+        text-align: left;
+        margin: 10px auto;
+    }
