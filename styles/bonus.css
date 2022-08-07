@@ -1,0 +1,20 @@
+.lien_playstore {
+    width: 200px;
+    margin: auto;
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+
+    .lien_playstore:hover {
+        transform: scale(1.07) perspective(1px);
+    }
+
+/* WEBGL */
+.webgl{
+    margin: 25px auto;
+    display: flex;
+}
+
+#unity-canvas{
+    margin: auto;
+}
