@@ -31,8 +31,6 @@
 
     .soin a {
         margin: auto;
-        margin-top: 18px;
-        margin-bottom: 8px;
         text-align: center;
         font-weight: 500;
         font-size: 16px;
@@ -50,3 +48,14 @@
         margin-top: 15px;
         text-align: center;
     }
+
+.soin .disclaimer{
+    font-style: italic;
+}
+
+.soin .downloads {
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
