@@ -50,3 +50,9 @@
     margin-top: 18px;
     margin-bottom: 8px;
 }
+
+.soin ol, .soin ul {
+	margin: auto;
+	text-align: center;
+	list-style-position: inside;
+}
