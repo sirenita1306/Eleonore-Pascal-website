@@ -43,7 +43,7 @@ main {
 
     .contact_indiv a {
         font-weight: 500;
-        font-size: 16px;
+        font-size: 18px;
         margin: auto;
         text-align: center;
         padding: 3px 0px;
@@ -54,19 +54,6 @@ main {
         .contact_indiv a:hover {
             color: #5B5D70;
             transform: scale(1.07) perspective(1px);
-        }
-
-    .contact_indiv .email {
-        text-align: center;
-        margin: auto;
-        font-style: italic;
-        font-size: 15px;
-        font-weight: normal;
-    }
-
-        .contact_indiv .email:hover {
-            text-decoration: underline;
-            color: #282D3C;
         }
 
 #presentationheader {
@@ -116,9 +103,38 @@ main {
         margin: 10px auto;
     }
 
+/* AGENDAS */
+#agendas {
+    width: 50%;
+    margin: 25px auto;
+}
+
+.explications_rv{
+    width: 60%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.explications_rv h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.explications_rv p{
+    text-align: justify;
+    text-align-last: center;
+}
+
 @media only screen and (max-width: 1385px) {
     #presentationheader {
         width: 40%;
+    }
+
+    #agendas {
+        width: 60%;
     }
 }
 
@@ -126,17 +142,29 @@ main {
     #presentationheader {
         width: 50%;
     }
+
+    #agendas {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 760px) {
     #presentationheader {
         width: 60%;
     }
+
+    #agendas {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #presentationheader {
         width: 70%;
+    }
+
+    #agendas {
+        width: 90%;
     }
 }
 
@@ -149,6 +177,10 @@ main {
         #presentationheader #photo {
             width: 200px;
         }
+
+    #agendas {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 300px) {
