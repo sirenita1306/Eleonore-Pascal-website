@@ -1,8 +1,3 @@
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 /* PRESENTATION COMMUNE */
 #presentation_principale {
     width: 55%;
@@ -62,8 +57,6 @@ main {
         margin: auto;
         text-align: center;
         transition: all 0.5s ease;
-        padding-bottom: 10px;
-        padding-top: 25px;
         font-size: 18px;
         transform: scale(1);
     }
@@ -88,10 +81,6 @@ main {
     font-size: 50px;
     text-align: center;
     margin: 8px auto;
-}
-
-.contact_indiv a {
-    padding: 3px 0px;
 }
 
 /* SOCIALS */
@@ -122,3 +111,55 @@ main {
         #socials a img {
             width: 30px;
         }
+
+@media only screen and (max-width: 1000px) {
+    #presentation_principale {
+        width: 80%;
+    }
+
+    #presentation_indiv_container{
+        width: 90%;
+    }
+
+    #socials{
+        width: 18%;
+    }
+
+    #socials a img {
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #presentation_principale {
+        width: 85%;
+    }
+
+    #presentation_indiv_container {
+        flex-direction: column;
+    }
+
+    .insideborder {
+        border-bottom: solid #f8debc 3px;
+        border-right: none;
+        margin-bottom: 15px;
+    }
+
+    #socials {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #socials {
+        width: 25%;
+    }
+
+    #presentation_principale {
+        width: 90%;
+    }
+
+    #presentation_indiv_container {
+        width: 100%;
+    }
+}

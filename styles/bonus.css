@@ -19,7 +19,7 @@
     margin: auto;
 }
 
-/* SOINS */
+/* BOX BONUS */
 #gridbonus {
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@
 }
 
     #gridbonus .bonus {
-        width: 600px;
+        width: 70%;
         margin: 15px auto;
         padding: 10px;
         background-color: #faf7f4;
@@ -79,3 +79,45 @@
 				width: 50%;
 				margin: auto;
 			}
+
+@media only screen and (max-width: 1360px) {
+    #gridbonus .bonus {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1175px) {
+    #gridbonus .bonus {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #gridbonus .bonus {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    #gridbonus {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    #gridbonus {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    #gridbonus {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    #gridbonus {
+        width: 100%;
+    }
+}

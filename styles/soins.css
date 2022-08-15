@@ -56,3 +56,27 @@
 	text-align: center;
 	list-style-position: inside;
 }
+
+@media only screen and (max-width: 945px) {
+    .soin {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .soin {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .soin {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .soin {
+        width: 100%;
+    }
+}

@@ -50,3 +50,25 @@ header{
                 transform: scale(1.07) perspective(1px);
                 backface-visibility: hidden;
             }
+
+@media only screen and (max-width: 1000px) {
+    #menu{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #menu {
+        width: 85%;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #menu {
+        width: 95%;
+    }
+}
