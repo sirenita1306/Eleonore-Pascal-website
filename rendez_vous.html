@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to this website" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:title" content="Website title" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />-->
+    <!-- URL to page -->
+    <!--<meta property="og:image" content="#" />--> <!-- URL to image -->
+    <!--<meta property="og:site_name" content=" Website name" />-->
+    <!-- Google tag manager -->
+    <!-- https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="medias/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="medias/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="medias/favicons/favicon-16x16.png">
+    <link rel="manifest" href="medias/favicons/site.webmanifest">
+    <link rel="mask-icon" href="medias/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="medias/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="medias/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/bonus.css" />
+
+    <title>Eléonore et Pascal - Prendre rendez-vous</title>
+</head>
+
+<body onload="selectCitation();">
+    <header>
+        <!-- LOGO -->
+        <img class="logo" src="medias/common_img/brand/logobig.png" alt="Eléonore et Pascal - Logo" />
+
+        <!-- MENU -->
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="soins_eleonore.html">Eléonore</a></li>
+                <li><a href="soins_pascal.html">Pascal</a></li>
+                <li><a href="soins_ensemble.html">Ensemble</a></li>
+                <li><a href="bonus.html">Bonus</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- GOOGLE AGENDA -->
+        <div class="explications_rv box">
+            <h2>Comment prendre rendez-vous</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel sodales nibh. Duis non ante et ex aliquet porttitor. Aliquam nisi tortor, ultricies eu elementum eget, fringilla ut libero. Duis vitae hendrerit odio, ac euismod erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In eu est commodo, lobortis elit ac, ullamcorper ligula. In placerat felis maximus velit porttitor, at faucibus odio convallis. Fusce sit amet nulla nec tellus fermentum cursus. Etiam neque augue, euismod ac pulvinar at, suscipit eget risus. Sed et tincidunt mi. Aliquam et fringilla ex. Curabitur ut nulla neque. Sed id lacus risus. Etiam non felis lacinia, scelerisque est vel, laoreet sapien. Etiam condimentum porta nisi. Mauris sit amet augue at enim rutrum luctus.
+
+                Proin gravida egestas ultricies. In mi magna, dapibus eget venenatis sed, pretium vel magna. Quisque varius ultrices accumsan. Praesent volutpat vulputate eleifend. Sed convallis est quis nulla sagittis, et commodo lorem congue. Quisque ac velit a ligula suscipit feugiat. Integer et tortor sit amet ligula scelerisque scelerisque. Phasellus dictum leo quis ipsum elementum cursus. Vestibulum at pharetra tellus. Pellentesque non felis et risus semper imperdiet. Cras laoreet, metus eget vehicula elementum, lectus lectus vestibulum eros, non placerat leo nulla eu nulla.
+            </p>
+        </div>
+
+        <img class="separator" src="medias/separator.png" />
+
+        <div id="agendas">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FParis&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&title=Agenda%20d'El%C3%A9onore&src=bjFlaW4yZThwM2RuY2lrZm5kYzNka3FmcGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aGt2YjE5ZHRoNzRnbmYyYWY3cWtiZ2JhY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%234285F4&color=%23B39DDB" style="border:solid 1px #777" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </main>
+
+    <footer>
+
+        <img class="separator" src="medias/separator.png" />
+
+        <!-- CITATION -->
+        <div id="citation">
+            <p id="citation_text"></p>
+        </div>
+
+        <!-- MENTIONS LEGALES -->
+        <div id="mentionslegales">
+            <p>Eléonore et Pascal 2022</p>
+            <a href="mentions_legales.html">Mentions légales</a>
+            <p>Conception site: <a href="https://github.com/Sin-Gala" target="_blank" rel="noreferrer noopener">SinGala</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/citations.js"></script>
+</body>
+</html>
