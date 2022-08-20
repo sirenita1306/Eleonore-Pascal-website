@@ -91,16 +91,19 @@ main {
     margin: 15px auto;
     width: 50%;
     flex-direction: column;
+    text-align: center;
 }
 
     #mentionslegales_text h2 {
         text-align: center;
         margin: auto;
+        text-align: center;
     }
 
     #mentionslegales_text p {
         text-align: left;
         margin: 10px auto;
+        text-align: center;
     }
 
 /* AGENDAS */
