@@ -118,6 +118,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 25px;
+    text-align: center;
 }
 
 .explications_rv h2{
@@ -127,7 +128,7 @@ main {
 }
 
 .explications_rv p{
-    text-align: justify;
+    text-align: center;
     text-align-last: center;
 }
 
