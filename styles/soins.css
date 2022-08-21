@@ -49,6 +49,12 @@
     flex-direction: row;
     margin-top: 18px;
     margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.soin .downloads audio, .soin .downloads a{
+	width: 30%;
+	margin: auto;
 }
 
 .soin ol, .soin ul {
