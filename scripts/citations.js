@@ -12,6 +12,7 @@ var citationsArray =
     "'En prononçant le mot merci, c’est comme une source de lumière, de paix et de joie que vous faites jaillir dans votre âme..' - O. M. Aïvanhov",
     "'Cherchez la sagesse, l’amour, la vérité, la justice, la bonté, car alors, où que vous soyez, quelles que soient les conditions, vous vous sentirez libre..' - O. M. Aïvanhov",
     "'Pour apporter le bonheur aux autres, il faut surtout remplir son cœur d’amour..' - O. M. Aïvanhov"
+    "'­Votre insatisfaction ne provient pas des circonstances de votre vie mais du conditionnement de votre esprit.' - Eckhart Tolle"
 ];
 
 var randNumber;
