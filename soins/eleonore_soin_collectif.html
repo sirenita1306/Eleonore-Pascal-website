@@ -2,19 +2,31 @@
 
 <html lang="fr">
 <head prefix="og: http://ogp.me/ns#">
-    <meta charset="utf-8" />
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Welcome to this website" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bienvenue sur Eléonore & Pascal. Lorsque nos deux chemins de vie se sont rejoints et que nous nous sommes racontés l’un à 
+                          l’autre, l’impression de déjà nous connaître n’a fait que se renforcer au fil de nos conversations. Dès que nous avons 
+                          emménagé ensemble a débuté entre nous une relation miroirs qui n’a jamais cessé de nous faire grandir.[...]" />
 
-    <meta name="twitter:card" content="summary" />
-    <meta property="og:title" content="Website title" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="#" />-->
-    <!-- URL to page -->
-    <!--<meta property="og:image" content="#" />--> <!-- URL to image -->
-    <!--<meta property="og:site_name" content=" Website name" />-->
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:title" content="Bienvenue sur Eléonore & Pascal" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eleonore-pascal-poirel.com/soins/eleonore_soin_collectif.html" />
+  <!-- URL to page -->
+  <meta property="og:image" content="https://eleonore-pascal-poirel.com/medias/common_img/brand/logobig.png" /> <!-- URL to image -->
+  <meta property="og:site_name" content=" Eléonore & Pascal" />
+
     <!-- Google tag manager -->
-    <!-- https://realfavicongenerator.net/ -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EN898XRX3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-6EN898XRX3');
+    </script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="../medias/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../medias/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../medias/favicons/favicon-16x16.png">
@@ -77,69 +89,55 @@
         </aside>
 
     <main>
-        <!-- GOOGLE AGENDA -->
+        <!-- EXPLICATION SOIN -->
         <div class="explications_rv box">
-            <h2>Soin collectif du Mardi 24 octobre 2022 à 14 heures</h2><br>
-            <p>
-                Pour cette Nouvelle Lune en Scorpion, je te propose un soin collectif.</p><br>
-           	<p>Durant ce soin tu recevras des énergies propices à ton évolution.</p><br>
-            <p>Avant de démarrer, pense à boire un grand verre d'eau et à t'installer dans un lieu confortable.</p><br>
-            <p>Tu peux t'inscrire en laissant ton adresse mail <a href="../contact.html"><span style="color: red;">ici</span></a></p><br>
+            <h2>Soin collectif du Vendredi 28 octobre 2022 de 19h45 à 20h15</h2><br>
+            
+           	<p>Le thème de ce soin sera la purification des énergies et la libération intérieure.</p><br>
+            <p>Avant de démarrer, pense à boire un grand verre d'eau et à t'installer dans un lieu confortable.</p><br> 
+            <p>Puis pose ton intention clairement.</p><br>
             <p>Ton inscription sera validée et confirmée après réception du règlement de 9 € via Paypal</p><br>
-            <p><div id="smart-button-container">
-                <div style="text-align: center;">
-                  <div id="smart-button-container">
-                    <div style="text-align: center;">
-                      <div id="paypal-button-container"></div>
-                    </div>
-                  </div>
-                <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>
-                <script>
-                  function initPayPalButton() {
-                    paypal.Buttons({
-                      style: {
-                        shape: 'pill',
-                        color: 'gold',
-                        layout: 'vertical',
-                        label: 'pay',
-                        
-                      },
-              
-                      createOrder: function(data, actions) {
-                        return actions.order.create({
-                          purchase_units: [{"description":"Soin collectif du Mardi 24 octobre 2022","amount":{"currency_code":"EUR","value":9}}]
-                        });
-                      },
-              
-                      onApprove: function(data, actions) {
-                        return actions.order.capture().then(function(orderData) {
-                          
-                          // Full available details
-                          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-              
-                          // Show a success message within this page, e.g.
-                          const element = document.getElementById('paypal-button-container');
-                          element.innerHTML = '';
-                          element.innerHTML = '<h3>Thank you for your payment!</h3>';
-              
-                          // Or go to another URL:  actions.redirect('thank_you.html');
-                          
-                        });
-                      },
-              
-                      onError: function(err) {
-                        console.log(err);
-                      }
-                    }).render('#paypal-button-container');
-                  }
-                  initPayPalButton();
-                </script></p><br>
+          
             <p>Après le soin j'enverrai un rapport en version pdf à chaque participant.</p><br>
        		<p>Gratitude infinie !</p>
-        		<br>    		
-        		<img class="separator" src="../medias/eleonore_img/energie1.png" />
+        		<br>
+            <div class="paypal_btn">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="V323QJBZYHBCQ">
+              <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+              <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div> <br>     
+        		<img class="separator" src="../medias/separator_blue.png" />
         </div>
 
+
+    <!-- EXPLICATION SOIN -->
+    <div class="explications_rv box">
+      <h2>Soin collectif du Lundi 31 octobre 2022 de 19h45 à 20h15</h2><br>
+      
+      <h3>Spécial Samhain</h3><br>
+       <p>Le thème de ce soin sera de laisser partir l'ancien et d'accueillir le renouveau en nous.</p><br>
+      <p>Avant de démarrer, pense à boire un grand verre d'eau et à t'installer dans un lieu confortable.</p><br> 
+      <p>Puis pose ton intention clairement.</p><br>
+      <p>Ton inscription sera validée et confirmée après réception du règlement de 9 € via Paypal</p><br>
+    
+      <p>Après le soin j'enverrai un rapport en version pdf à chaque participant.</p><br>
+     <p>Gratitude infinie !</p>
+      <br>   
+      <div class="paypal_btn">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="V323QJBZYHBCQ">
+          <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+          <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          
+      </div>
+
+      <img class="separator" src="../medias/separator_blue.png" />
+  </div>    
     </main>
 
     <footer>
@@ -159,8 +157,8 @@
                 <div class="partners">
                     <div>
                         <p>Partenaires</p>
-                        <a href="https://heliomai.com/" target="_blank" rel="noreferrer noopener"><img src="medias/partners/heliomai_logo.png" alt="Heliomaí - Logo Heliomai- Partners" /></a>
-                        <a href="https://sin-gala.github.io/SinGala_Links/" target="_blank" rel="noreferrer noopener"><img src="medias/partners/logoSinGala.jpg" alt="Heliomaí - Logo SinGala - Partners" /></a>
+                        <a href="https://heliomai.com/" target="_blank" rel="noreferrer noopener"><img src="../medias/partners/heliomai_logo.png" alt="Heliomaí - Logo Heliomai- Partners" /></a>
+                        <a href="https://sin-gala.github.io/SinGala_Links/" target="_blank" rel="noreferrer noopener"><img src="../medias/partners/logoSinGala.jpg" alt="Heliomaí - Logo SinGala - Partners" /></a>
                     </div>
                 </div>        
         </div>

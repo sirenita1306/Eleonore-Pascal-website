@@ -86,7 +86,7 @@ main {
     display: flex;
 }
 
-/* Mentions légales */
+/* Mentions lï¿½gales */
 #mentionslegales_text {
     margin: 15px auto;
     width: 50%;
@@ -130,6 +130,12 @@ main {
 .explications_rv p{
     text-align: center;
     text-align-last: center;
+}
+
+/* PAYPAL */
+.paypal_btn{
+    width: 200px;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1385px) {
