@@ -138,6 +138,11 @@ main {
     margin: auto;
 }
 
+.paypal_btn2{
+    width: 120px;
+    margin: auto;
+}
+
 @media only screen and (max-width: 1385px) {
     #presentationheader {
         width: 40%;
