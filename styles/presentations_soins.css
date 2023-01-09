@@ -53,3 +53,47 @@
             font-weight: 500;
             font-size: 16px;
         }
+
+        .button_rdv, .button_rdv_menu{
+            margin: auto;
+            width: 50%;
+            padding:10px 15px; 
+            border-radius:25px; 
+            display:inline-flex; 
+            text-decoration:none; 
+        }
+        
+        .button_rdv_menu{
+            width: 70%;
+        }
+        
+        .button_rdv a, .button_rdv_menu a{
+            text-align: center;
+            font-family:Georgia,serif; 
+            font-size:21px; 
+            font-weight:bold; 
+        }
+        
+        .rdv_paca{
+            background-color:#e77b0d;
+        }
+        
+        .rdv_paca a{
+            color:#ffffff; 
+        }
+        
+        .rdv_nora{
+            background-color:#5300cc;
+        }
+        
+        .rdv_nora a{
+            color:#ffffff; 
+        }
+        
+        .rdv_ensemble{
+            background-color:#308113;
+        }
+        
+        .rdv_ensemble a{
+            color:#ffffff; 
+        }        

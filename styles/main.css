@@ -52,7 +52,7 @@ main {
     }
 
         .contact_indiv a:hover {
-            color: #5B5D70;
+            color: white;
             transform: scale(1.07) perspective(1px);
         }
 
