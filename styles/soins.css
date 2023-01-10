@@ -23,6 +23,15 @@
         text-align-last: center;
     }
 
+    .description_rdv {
+        margin: auto;
+        padding: 0px 10px;
+        text-align: justify;
+        text-align-last: center;
+        font-size: larger;
+        font-weight: bold;
+    }
+
     .soin a {
         margin: auto;
         text-align: center;

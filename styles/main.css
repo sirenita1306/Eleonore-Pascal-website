@@ -193,7 +193,7 @@ main {
             width: 200px;
         }
 
-    #agendas {
+    #agendas .explications_rv{
         width: 100%;
     }
 }
@@ -201,5 +201,9 @@ main {
 @media only screen and (max-width: 300px) {
     #presentationheader #photo {
         width: 150px;
+    }
+
+    .explications_rv{
+        width: 100%;
     }
 }
